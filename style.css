@@ -11,3 +11,22 @@ img {
 width: 350px;
 height: auto;
 }
+
+.about-me {
+    background-color: blanchedalmond;
+}
+
+.my-button {
+    background-color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 5px;
+}
+.button{
+    background-color: gold;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
