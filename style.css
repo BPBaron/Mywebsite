@@ -1,5 +1,7 @@
 body {
-background-color: aqua;
+background: linear-gradient(to right, aqua, blanchedalmond
+);
+padding: 10px;
 }
 
 h1 {
@@ -11,11 +13,6 @@ img {
 width: 350px;
 height: auto;
 }
-
-.about-me {
-    background-color: blanchedalmond;
-}
-
 .my-button {
     background-color: coral;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,6 +24,10 @@ gap: 5px;
 }
 .button{
     background-color: gold;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
+    
+}
+
+.p {
+    gap: 30px;
 }
